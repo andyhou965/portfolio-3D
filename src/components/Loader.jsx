@@ -1,9 +1,7 @@
-import React from 'react'
+import { Html } from "@react-three/drei";
 
 const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
+	return <Html>Loader</Html>;
+};
 
-export default Loader
+export default Loader;
